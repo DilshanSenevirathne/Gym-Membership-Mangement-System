@@ -56,56 +56,66 @@ namespace Gym_Membership_Mangement_System
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(889, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(919, 72);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(33, 24);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(33, 68);
             this.toolStripMenuItem1.Text = ">";
             // 
             // newMemberToolStripMenuItem
             // 
+            this.newMemberToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newMemberToolStripMenuItem.Image")));
+            this.newMemberToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.newMemberToolStripMenuItem.Name = "newMemberToolStripMenuItem";
-            this.newMemberToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
+            this.newMemberToolStripMenuItem.Size = new System.Drawing.Size(177, 68);
             this.newMemberToolStripMenuItem.Text = "New Member";
             // 
             // newStaffToolStripMenuItem
             // 
+            this.newStaffToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newStaffToolStripMenuItem.Image")));
+            this.newStaffToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.newStaffToolStripMenuItem.Name = "newStaffToolStripMenuItem";
-            this.newStaffToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
+            this.newStaffToolStripMenuItem.Size = new System.Drawing.Size(152, 68);
             this.newStaffToolStripMenuItem.Text = "New Staff";
             // 
             // equipmentToolStripMenuItem
             // 
+            this.equipmentToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("equipmentToolStripMenuItem.Image")));
+            this.equipmentToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.equipmentToolStripMenuItem.Name = "equipmentToolStripMenuItem";
-            this.equipmentToolStripMenuItem.Size = new System.Drawing.Size(95, 24);
+            this.equipmentToolStripMenuItem.Size = new System.Drawing.Size(159, 68);
             this.equipmentToolStripMenuItem.Text = "Equipment";
             // 
             // searchMemberToolStripMenuItem
             // 
+            this.searchMemberToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("searchMemberToolStripMenuItem.Image")));
+            this.searchMemberToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.searchMemberToolStripMenuItem.Name = "searchMemberToolStripMenuItem";
-            this.searchMemberToolStripMenuItem.Size = new System.Drawing.Size(127, 24);
+            this.searchMemberToolStripMenuItem.Size = new System.Drawing.Size(191, 68);
             this.searchMemberToolStripMenuItem.Text = "Search Member";
             // 
             // deleteMemberToolStripMenuItem
             // 
+            this.deleteMemberToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deleteMemberToolStripMenuItem.Image")));
+            this.deleteMemberToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deleteMemberToolStripMenuItem.Name = "deleteMemberToolStripMenuItem";
-            this.deleteMemberToolStripMenuItem.Size = new System.Drawing.Size(127, 24);
+            this.deleteMemberToolStripMenuItem.Size = new System.Drawing.Size(191, 68);
             this.deleteMemberToolStripMenuItem.Text = "Delete Member";
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(76, 24);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(76, 68);
             this.logOutToolStripMenuItem.Text = "Log Out";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 68);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // Form1
@@ -114,7 +124,7 @@ namespace Gym_Membership_Mangement_System
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(889, 508);
+            this.ClientSize = new System.Drawing.Size(919, 479);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
