@@ -32,5 +32,16 @@ namespace Gym_Membership_Mangement_System
                 newMember.Image = Image.FromFile(@"C:\Users\Chamikara Mendis\Downloads\right-arrow.png");
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            newMember.Image = Image.FromFile(@"C:\Users\Chamikara Mendis\Downloads\right-arrow.png");
+        }
+
+        private void newMemberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            New_Member obj = new New_Member();
+            obj.Show();
+        }
     }
 }
