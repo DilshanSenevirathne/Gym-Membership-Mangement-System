@@ -16,5 +16,21 @@ namespace Gym_Membership_Mangement_System
         {
             InitializeComponent();
         }
+        Boolean b = true;
+        private void newMember_Click(object sender, EventArgs e)
+        {
+            if (b== true)
+            {
+                menuStrip1.Dock = DockStyle.Left;
+                b = false;
+                newMember.Image = Image.FromFile(@"C:\Users\Chamikara Mendis\Downloads\arrow-down-sign-to-navigate.png");
+            }
+            else
+            {
+                menuStrip1.Dock = DockStyle.Top;
+                b = true;
+                newMember.Image = Image.FromFile(@"C:\Users\Chamikara Mendis\Downloads\right-arrow.png");
+            }
+        }
     }
 }

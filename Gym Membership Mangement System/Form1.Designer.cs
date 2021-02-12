@@ -31,7 +31,7 @@ namespace Gym_Membership_Mangement_System
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.newMember = new System.Windows.Forms.ToolStripMenuItem();
             this.newMemberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newStaffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.equipmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,7 +46,7 @@ namespace Gym_Membership_Mangement_System
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
+            this.newMember,
             this.newMemberToolStripMenuItem,
             this.newStaffToolStripMenuItem,
             this.equipmentToolStripMenuItem,
@@ -56,15 +56,15 @@ namespace Gym_Membership_Mangement_System
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(919, 72);
+            this.menuStrip1.Size = new System.Drawing.Size(1170, 72);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStripMenuItem1
+            // newMember
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(33, 68);
-            this.toolStripMenuItem1.Text = ">";
+            this.newMember.Name = "newMember";
+            this.newMember.Size = new System.Drawing.Size(14, 68);
+            this.newMember.Click += new System.EventHandler(this.newMember_Click);
             // 
             // newMemberToolStripMenuItem
             // 
@@ -108,14 +108,18 @@ namespace Gym_Membership_Mangement_System
             // 
             // logOutToolStripMenuItem
             // 
+            this.logOutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("logOutToolStripMenuItem.Image")));
+            this.logOutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(76, 68);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(140, 68);
             this.logOutToolStripMenuItem.Text = "Log Out";
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
+            this.exitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 68);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(111, 68);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // Form1
@@ -124,7 +128,7 @@ namespace Gym_Membership_Mangement_System
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(919, 479);
+            this.ClientSize = new System.Drawing.Size(1170, 544);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -140,7 +144,7 @@ namespace Gym_Membership_Mangement_System
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem newMember;
         private System.Windows.Forms.ToolStripMenuItem newMemberToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newStaffToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem equipmentToolStripMenuItem;
