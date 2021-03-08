@@ -79,5 +79,26 @@ namespace Gym_Membership_Mangement_System
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            inputFirstName.Clear();
+            inputLastName.Clear();
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+            inputMobile.Clear();
+            inputEmail.Clear();
+            comboBoxGymTime.ResetText();
+            comboBoxMembership.ResetText();
+
+            inputAddress.Clear();
+            dateTimePickerDOB.Value = DateTime.Now;
+            dateTimePickerJoinDate.Value = DateTime.Now;
+
+
+
+
+
+        }
     }
 }
