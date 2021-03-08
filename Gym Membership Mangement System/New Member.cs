@@ -57,8 +57,17 @@ namespace Gym_Membership_Mangement_System
 
 
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = CHAMIKARA\\SQLEXPRESS; databse =gym; integrated security = True";
+            //con.ConnectionString = "data source = CHAMIKARA\\SQLEXPRESS; databse =gym; integrated security = True";
+            con.ConnectionString = "data source = CHAMIKARA\\SQLEXPRESS; database =gym; integrated security =True";
 
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+
+            cmd.CommandText = "insert into NewMember (Fname,Lname,Gender,Dob,Mobile,Email,JoinDate,Gymtime,Maddress,MembershipTime) values ('" + firstName + "','" + lastName + "','" + gender + "','" + dob + "'," + mobile + ",'" + email + "','" + joinDate + "','" + gymTime + "','" + address + "','" + membershipTime + "')";
+            SqlDataAdapter DA = new SqlDataAdapter(cmd);
+            DataSet DS = new DataSet();
+            DA.Fill(DS);
+            MessageBox.Show("Data saved");
         }
 
         private void label1_Click(object sender, EventArgs e)
