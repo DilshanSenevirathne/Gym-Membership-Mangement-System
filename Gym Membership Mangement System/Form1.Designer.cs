@@ -87,6 +87,7 @@ namespace Gym_Membership_Mangement_System
             this.newStaffToolStripMenuItem.Name = "newStaffToolStripMenuItem";
             this.newStaffToolStripMenuItem.Size = new System.Drawing.Size(152, 68);
             this.newStaffToolStripMenuItem.Text = "New Staff";
+            this.newStaffToolStripMenuItem.Click += new System.EventHandler(this.newStaffToolStripMenuItem_Click);
             // 
             // equipmentToolStripMenuItem
             // 

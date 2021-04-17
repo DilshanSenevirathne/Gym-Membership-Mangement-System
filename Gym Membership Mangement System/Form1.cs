@@ -43,5 +43,11 @@ namespace Gym_Membership_Mangement_System
             New_Member obj = new New_Member();
             obj.Show();
         }
+
+        private void newStaffToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewStaff ns = new NewStaff();
+            ns.Show();
+        }
     }
 }

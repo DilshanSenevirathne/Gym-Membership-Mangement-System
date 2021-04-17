@@ -58,6 +58,12 @@
     <Compile Include="New Member.Designer.cs">
       <DependentUpon>New Member.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewStaff.Designer.cs">
+      <DependentUpon>NewStaff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="New Member.resx">
       <DependentUpon>New Member.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewStaff.resx">
+      <DependentUpon>NewStaff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

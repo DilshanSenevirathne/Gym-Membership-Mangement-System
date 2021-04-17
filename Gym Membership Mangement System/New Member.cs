@@ -58,7 +58,7 @@ namespace Gym_Membership_Mangement_System
 
             SqlConnection con = new SqlConnection();
             //con.ConnectionString = "data source = CHAMIKARA\\SQLEXPRESS; databse =gym; integrated security = True";
-            con.ConnectionString = "data source = CHAMIKARA\\SQLEXPRESS; database =gym; integrated security =True";
+            con.ConnectionString = "Data Source=CHAMIKARA\\SQLEXPRESS;Initial Catalog=gym;Integrated Security=True";
 
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
