@@ -208,6 +208,7 @@ namespace Gym_Membership_Mangement_System
             this.label3.TabIndex = 14;
             this.label3.Text = "Date Of Birth";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -220,6 +221,7 @@ namespace Gym_Membership_Mangement_System
             this.label4.Size = new System.Drawing.Size(83, 25);
             this.label4.TabIndex = 15;
             this.label4.Text = "Gender";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -234,6 +236,7 @@ namespace Gym_Membership_Mangement_System
             this.label5.TabIndex = 16;
             this.label5.Text = "Last Name";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -350,6 +353,7 @@ namespace Gym_Membership_Mangement_System
             this.Name = "New_Member";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "New_Member";
+            this.Load += new System.EventHandler(this.New_Member_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
