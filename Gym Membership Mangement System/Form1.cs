@@ -80,5 +80,15 @@ namespace Gym_Membership_Mangement_System
             }
         }
 
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show ("Log out !! Confirm? ","Log out",MessageBoxButtons.OKCancel,MessageBoxIcon.Warning) == DialogResult.OK)
+            {
+                this.Close();
+                Login lg = new Login();
+                lg.Show();
+
+            }
+        }
     }
 }
