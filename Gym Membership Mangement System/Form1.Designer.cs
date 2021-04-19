@@ -155,7 +155,6 @@ namespace Gym_Membership_Mangement_System
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Gym Membership Management System";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
