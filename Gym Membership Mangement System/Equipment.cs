@@ -55,5 +55,11 @@ namespace Gym_Membership_Mangement_System
             DA.Fill(DS);
             MessageBox.Show("Data saved");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ViewEquipment ve = new ViewEquipment();
+            ve.Show();
+        }
     }
 }
