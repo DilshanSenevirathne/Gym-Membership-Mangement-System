@@ -49,5 +49,11 @@ namespace Gym_Membership_Mangement_System
             NewStaff ns = new NewStaff();
             ns.Show();
         }
+
+        private void equipmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Equipment eq = new Equipment();
+            eq.Show();
+        }
     }
 }

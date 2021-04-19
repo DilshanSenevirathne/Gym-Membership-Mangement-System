@@ -112,14 +112,14 @@ namespace Gym_Membership_Mangement_System
             this.inputEmail.Location = new System.Drawing.Point(467, 95);
             this.inputEmail.Name = "inputEmail";
             this.inputEmail.Size = new System.Drawing.Size(100, 22);
-            this.inputEmail.TabIndex = 5;
+            this.inputEmail.TabIndex = 7;
             // 
             // inputMobile
             // 
             this.inputMobile.Location = new System.Drawing.Point(175, 352);
             this.inputMobile.Name = "inputMobile";
             this.inputMobile.Size = new System.Drawing.Size(100, 22);
-            this.inputMobile.TabIndex = 6;
+            this.inputMobile.TabIndex = 5;
             // 
             // dateTimePickerJoinDate
             // 
@@ -127,14 +127,14 @@ namespace Gym_Membership_Mangement_System
             this.dateTimePickerJoinDate.Location = new System.Drawing.Point(467, 151);
             this.dateTimePickerJoinDate.Name = "dateTimePickerJoinDate";
             this.dateTimePickerJoinDate.Size = new System.Drawing.Size(100, 22);
-            this.dateTimePickerJoinDate.TabIndex = 7;
+            this.dateTimePickerJoinDate.TabIndex = 8;
             // 
             // inputAddress
             // 
             this.inputAddress.Location = new System.Drawing.Point(432, 264);
             this.inputAddress.Name = "inputAddress";
             this.inputAddress.Size = new System.Drawing.Size(100, 96);
-            this.inputAddress.TabIndex = 9;
+            this.inputAddress.TabIndex = 10;
             this.inputAddress.Text = "";
             // 
             // comboBoxGymTime
@@ -149,7 +149,7 @@ namespace Gym_Membership_Mangement_System
             this.comboBoxGymTime.Location = new System.Drawing.Point(467, 205);
             this.comboBoxGymTime.Name = "comboBoxGymTime";
             this.comboBoxGymTime.Size = new System.Drawing.Size(100, 24);
-            this.comboBoxGymTime.TabIndex = 10;
+            this.comboBoxGymTime.TabIndex = 9;
             // 
             // comboBoxMembership
             // 
@@ -164,7 +164,7 @@ namespace Gym_Membership_Mangement_System
             this.comboBoxMembership.Location = new System.Drawing.Point(376, 393);
             this.comboBoxMembership.Name = "comboBoxMembership";
             this.comboBoxMembership.Size = new System.Drawing.Size(121, 24);
-            this.comboBoxMembership.TabIndex = 11;
+            this.comboBoxMembership.TabIndex = 6;
             // 
             // label1
             // 
@@ -248,7 +248,7 @@ namespace Gym_Membership_Mangement_System
             this.label6.Location = new System.Drawing.Point(170, 393);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(209, 25);
-            this.label6.TabIndex = 17;
+            this.label6.TabIndex = 6;
             this.label6.Text = "Membership Time";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -259,7 +259,7 @@ namespace Gym_Membership_Mangement_System
             this.button1.Location = new System.Drawing.Point(148, 441);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 31);
-            this.button1.TabIndex = 18;
+            this.button1.TabIndex = 11;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -271,7 +271,7 @@ namespace Gym_Membership_Mangement_System
             this.button2.Location = new System.Drawing.Point(319, 441);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 31);
-            this.button2.TabIndex = 19;
+            this.button2.TabIndex = 12;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);

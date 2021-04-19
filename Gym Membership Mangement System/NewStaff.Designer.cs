@@ -30,16 +30,16 @@ namespace Gym_Membership_Mangement_System
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewStaff));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtFname = new System.Windows.Forms.TextBox();
+            this.txtLname = new System.Windows.Forms.TextBox();
+            this.txtMobile = new System.Windows.Forms.TextBox();
+            this.txtState = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerJOINDate = new System.Windows.Forms.DateTimePicker();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.dateTimePickerDOB = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,40 +53,40 @@ namespace Gym_Membership_Mangement_System
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtFname
             // 
-            this.textBox1.Location = new System.Drawing.Point(185, 92);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 0;
+            this.txtFname.Location = new System.Drawing.Point(185, 92);
+            this.txtFname.Name = "txtFname";
+            this.txtFname.Size = new System.Drawing.Size(100, 22);
+            this.txtFname.TabIndex = 0;
             // 
-            // textBox2
+            // txtLname
             // 
-            this.textBox2.Location = new System.Drawing.Point(185, 142);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 0;
+            this.txtLname.Location = new System.Drawing.Point(185, 142);
+            this.txtLname.Name = "txtLname";
+            this.txtLname.Size = new System.Drawing.Size(100, 22);
+            this.txtLname.TabIndex = 1;
             // 
-            // textBox3
+            // txtMobile
             // 
-            this.textBox3.Location = new System.Drawing.Point(185, 328);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 0;
+            this.txtMobile.Location = new System.Drawing.Point(185, 328);
+            this.txtMobile.Name = "txtMobile";
+            this.txtMobile.Size = new System.Drawing.Size(100, 22);
+            this.txtMobile.TabIndex = 5;
             // 
-            // textBox4
+            // txtState
             // 
-            this.textBox4.Location = new System.Drawing.Point(462, 217);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 0;
+            this.txtState.Location = new System.Drawing.Point(462, 217);
+            this.txtState.Name = "txtState";
+            this.txtState.Size = new System.Drawing.Size(100, 22);
+            this.txtState.TabIndex = 8;
             // 
-            // textBox5
+            // txtEmail
             // 
-            this.textBox5.Location = new System.Drawing.Point(462, 92);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 0;
+            this.txtEmail.Location = new System.Drawing.Point(462, 92);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.TabIndex = 6;
             // 
             // radioButton1
             // 
@@ -94,7 +94,7 @@ namespace Gym_Membership_Mangement_System
             this.radioButton1.Location = new System.Drawing.Point(191, 218);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(59, 21);
-            this.radioButton1.TabIndex = 1;
+            this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Male";
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -105,33 +105,33 @@ namespace Gym_Membership_Mangement_System
             this.radioButton2.Location = new System.Drawing.Point(256, 218);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(75, 21);
-            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabIndex = 3;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Female";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dateTimePickerJOINDate
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(462, 151);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(128, 22);
-            this.dateTimePicker1.TabIndex = 2;
+            this.dateTimePickerJOINDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePickerJOINDate.Location = new System.Drawing.Point(462, 151);
+            this.dateTimePickerJOINDate.Name = "dateTimePickerJOINDate";
+            this.dateTimePickerJOINDate.Size = new System.Drawing.Size(128, 22);
+            this.dateTimePickerJOINDate.TabIndex = 7;
             // 
-            // textBox6
+            // txtCity
             // 
-            this.textBox6.Location = new System.Drawing.Point(462, 279);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 0;
+            this.txtCity.Location = new System.Drawing.Point(462, 279);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(100, 22);
+            this.txtCity.TabIndex = 9;
             // 
-            // dateTimePicker2
+            // dateTimePickerDOB
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(185, 279);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(120, 22);
-            this.dateTimePicker2.TabIndex = 2;
+            this.dateTimePickerDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePickerDOB.Location = new System.Drawing.Point(185, 279);
+            this.dateTimePickerDOB.Name = "dateTimePickerDOB";
+            this.dateTimePickerDOB.Size = new System.Drawing.Size(120, 22);
+            this.dateTimePickerDOB.TabIndex = 4;
             // 
             // label5
             // 
@@ -264,9 +264,10 @@ namespace Gym_Membership_Mangement_System
             this.button2.Location = new System.Drawing.Point(356, 413);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 31);
-            this.button2.TabIndex = 26;
+            this.button2.TabIndex = 11;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -275,9 +276,10 @@ namespace Gym_Membership_Mangement_System
             this.button1.Location = new System.Drawing.Point(185, 413);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 31);
-            this.button1.TabIndex = 25;
+            this.button1.TabIndex = 10;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // NewStaff
             // 
@@ -296,19 +298,19 @@ namespace Gym_Membership_Mangement_System
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateTimePickerDOB);
+            this.Controls.Add(this.dateTimePickerJOINDate);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.txtState);
+            this.Controls.Add(this.txtMobile);
+            this.Controls.Add(this.txtLname);
+            this.Controls.Add(this.txtFname);
             this.Name = "NewStaff";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NewStaff";
+            this.Text = "2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,16 +318,16 @@ namespace Gym_Membership_Mangement_System
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtFname;
+        private System.Windows.Forms.TextBox txtLname;
+        private System.Windows.Forms.TextBox txtMobile;
+        private System.Windows.Forms.TextBox txtState;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePickerJOINDate;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.DateTimePicker dateTimePickerDOB;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;

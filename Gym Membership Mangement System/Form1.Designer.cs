@@ -96,6 +96,7 @@ namespace Gym_Membership_Mangement_System
             this.equipmentToolStripMenuItem.Name = "equipmentToolStripMenuItem";
             this.equipmentToolStripMenuItem.Size = new System.Drawing.Size(159, 68);
             this.equipmentToolStripMenuItem.Text = "Equipment";
+            this.equipmentToolStripMenuItem.Click += new System.EventHandler(this.equipmentToolStripMenuItem_Click);
             // 
             // searchMemberToolStripMenuItem
             // 
