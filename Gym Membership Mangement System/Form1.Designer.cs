@@ -114,6 +114,7 @@ namespace Gym_Membership_Mangement_System
             this.deleteMemberToolStripMenuItem.Name = "deleteMemberToolStripMenuItem";
             this.deleteMemberToolStripMenuItem.Size = new System.Drawing.Size(191, 68);
             this.deleteMemberToolStripMenuItem.Text = "Delete Member";
+            this.deleteMemberToolStripMenuItem.Click += new System.EventHandler(this.deleteMemberToolStripMenuItem_Click);
             // 
             // logOutToolStripMenuItem
             // 

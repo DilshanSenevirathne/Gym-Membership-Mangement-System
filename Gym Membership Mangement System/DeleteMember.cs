@@ -11,24 +11,23 @@ using System.Windows.Forms;
 
 namespace Gym_Membership_Mangement_System
 {
-    public partial class SearchMember : Form
+    public partial class DeleteMember : Form
     {
-        public SearchMember()
+        public DeleteMember()
         {
             InitializeComponent();
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
+        private void btnDelete_Click(object sender, EventArgs e)
         {
-
-            if (txtSearch.Text != "")
+            if (MessageBox.Show(" This Will delete your data. Confirm?","Delete Data",MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 SqlConnection con = new SqlConnection();
                 con.ConnectionString = "Data Source=CHAMIKARA\\SQLEXPRESS;Initial Catalog=gym;Integrated Security=True";
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
 
-                cmd.CommandText = "Select * from NewMember where MID = " + txtSearch.Text + "";
+                cmd.CommandText = "delete  from NewMember where MID = " + txtDelete.Text + "";
 
                 SqlDataAdapter DA = new SqlDataAdapter(cmd);
                 DataSet DS = new DataSet();
@@ -39,15 +38,25 @@ namespace Gym_Membership_Mangement_System
 
             else
             {
-                MessageBox.Show("Please Enter A member ID", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Activate();
+
+                SqlConnection con = new SqlConnection();
+                con.ConnectionString = "Data Source=CHAMIKARA\\SQLEXPRESS;Initial Catalog=gym;Integrated Security=True";
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = con;
+
+                cmd.CommandText = "Select * from NewMember ";
+
+                SqlDataAdapter DA = new SqlDataAdapter(cmd);
+                DataSet DS = new DataSet();
+                DA.Fill(DS);
+
+                dataGridView1.DataSource = DS.Tables[0];
+
             }
-           
-
-
-
         }
 
-        private void SearchMember_Load(object sender, EventArgs e)
+        private void DeleteMember_Load(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
             con.ConnectionString = "Data Source=CHAMIKARA\\SQLEXPRESS;Initial Catalog=gym;Integrated Security=True";

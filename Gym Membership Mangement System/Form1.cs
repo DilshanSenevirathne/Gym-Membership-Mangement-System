@@ -61,5 +61,11 @@ namespace Gym_Membership_Mangement_System
             SearchMember sm = new SearchMember();
             sm.Show();
         }
+
+        private void deleteMemberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DeleteMember dm = new DeleteMember();
+            dm.Show();
+        }
     }
 }
