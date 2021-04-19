@@ -67,5 +67,18 @@ namespace Gym_Membership_Mangement_System
             DeleteMember dm = new DeleteMember();
             dm.Show();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("This will close your application Confirm?","Close",MessageBoxButtons.YesNo,MessageBoxIcon.Warning)==DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else
+            {
+                MessageBox.Show("Welcome Back", "Welcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
     }
 }
