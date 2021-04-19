@@ -105,6 +105,7 @@ namespace Gym_Membership_Mangement_System
             this.searchMemberToolStripMenuItem.Name = "searchMemberToolStripMenuItem";
             this.searchMemberToolStripMenuItem.Size = new System.Drawing.Size(191, 68);
             this.searchMemberToolStripMenuItem.Text = "Search Member";
+            this.searchMemberToolStripMenuItem.Click += new System.EventHandler(this.searchMemberToolStripMenuItem_Click);
             // 
             // deleteMemberToolStripMenuItem
             // 

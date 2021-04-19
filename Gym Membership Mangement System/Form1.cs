@@ -55,5 +55,11 @@ namespace Gym_Membership_Mangement_System
             Equipment eq = new Equipment();
             eq.Show();
         }
+
+        private void searchMemberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SearchMember sm = new SearchMember();
+            sm.Show();
+        }
     }
 }
