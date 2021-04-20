@@ -48,30 +48,30 @@ namespace Gym_Membership_Mangement_System
             // 
             // txtMuscleUsed
             // 
-            this.txtMuscleUsed.Location = new System.Drawing.Point(543, 357);
+            this.txtMuscleUsed.Location = new System.Drawing.Point(529, 363);
             this.txtMuscleUsed.Name = "txtMuscleUsed";
-            this.txtMuscleUsed.Size = new System.Drawing.Size(261, 22);
+            this.txtMuscleUsed.Size = new System.Drawing.Size(322, 22);
             this.txtMuscleUsed.TabIndex = 2;
             // 
             // txtCost
             // 
-            this.txtCost.Location = new System.Drawing.Point(543, 486);
+            this.txtCost.Location = new System.Drawing.Point(529, 488);
             this.txtCost.Name = "txtCost";
-            this.txtCost.Size = new System.Drawing.Size(261, 22);
+            this.txtCost.Size = new System.Drawing.Size(322, 22);
             this.txtCost.TabIndex = 4;
             // 
             // txtEquipName
             // 
-            this.txtEquipName.Location = new System.Drawing.Point(543, 168);
+            this.txtEquipName.Location = new System.Drawing.Point(529, 170);
             this.txtEquipName.Name = "txtEquipName";
-            this.txtEquipName.Size = new System.Drawing.Size(261, 22);
+            this.txtEquipName.Size = new System.Drawing.Size(322, 22);
             this.txtEquipName.TabIndex = 0;
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(543, 237);
+            this.txtDescription.Location = new System.Drawing.Point(529, 230);
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(261, 96);
+            this.txtDescription.Size = new System.Drawing.Size(322, 96);
             this.txtDescription.TabIndex = 1;
             this.txtDescription.Text = "";
             // 
@@ -120,10 +120,9 @@ namespace Gym_Membership_Mangement_System
             // 
             // dateTimePickerDeliveryDate
             // 
-            this.dateTimePickerDeliveryDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerDeliveryDate.Location = new System.Drawing.Point(543, 416);
+            this.dateTimePickerDeliveryDate.Location = new System.Drawing.Point(529, 424);
             this.dateTimePickerDeliveryDate.Name = "dateTimePickerDeliveryDate";
-            this.dateTimePickerDeliveryDate.Size = new System.Drawing.Size(261, 22);
+            this.dateTimePickerDeliveryDate.Size = new System.Drawing.Size(322, 22);
             this.dateTimePickerDeliveryDate.TabIndex = 3;
             // 
             // label4
@@ -133,7 +132,7 @@ namespace Gym_Membership_Mangement_System
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(145, 159);
+            this.label4.Location = new System.Drawing.Point(98, 161);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(253, 35);
             this.label4.TabIndex = 28;
@@ -147,7 +146,7 @@ namespace Gym_Membership_Mangement_System
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
             this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(145, 237);
+            this.label7.Location = new System.Drawing.Point(98, 230);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(196, 35);
             this.label7.TabIndex = 29;
@@ -161,7 +160,7 @@ namespace Gym_Membership_Mangement_System
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
             this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label8.Location = new System.Drawing.Point(145, 348);
+            this.label8.Location = new System.Drawing.Point(98, 354);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(229, 35);
             this.label8.TabIndex = 30;
@@ -175,7 +174,7 @@ namespace Gym_Membership_Mangement_System
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
             this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label9.Location = new System.Drawing.Point(145, 409);
+            this.label9.Location = new System.Drawing.Point(98, 417);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(221, 35);
             this.label9.TabIndex = 31;
@@ -189,7 +188,7 @@ namespace Gym_Membership_Mangement_System
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Image = ((System.Drawing.Image)(resources.GetObject("label10.Image")));
             this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label10.Location = new System.Drawing.Point(145, 477);
+            this.label10.Location = new System.Drawing.Point(98, 479);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(138, 35);
             this.label10.TabIndex = 32;
