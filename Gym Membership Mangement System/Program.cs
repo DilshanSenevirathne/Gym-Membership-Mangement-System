@@ -16,7 +16,7 @@ namespace Gym_Membership_Mangement_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NewStaff());
+            Application.Run(new Equipment());
         }
     }
 }
