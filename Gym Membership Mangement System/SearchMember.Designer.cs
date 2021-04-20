@@ -53,7 +53,7 @@ namespace Gym_Membership_Mangement_System
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(889, 395);
+            this.dataGridView1.Size = new System.Drawing.Size(889, 419);
             this.dataGridView1.TabIndex = 26;
             // 
             // btnSearch

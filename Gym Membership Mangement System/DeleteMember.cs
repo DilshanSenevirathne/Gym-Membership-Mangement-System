@@ -33,7 +33,7 @@ namespace Gym_Membership_Mangement_System
                 DataSet DS = new DataSet();
                 DA.Fill(DS);
 
-                dataGridView1.DataSource = DS.Tables[0];
+             //   dataGridView1.DataSource = DS.Tables[0];
             }
 
             else

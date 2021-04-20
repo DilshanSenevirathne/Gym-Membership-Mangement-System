@@ -231,6 +231,8 @@ namespace Gym_Membership_Mangement_System
             this.Controls.Add(this.txtCost);
             this.Controls.Add(this.txtMuscleUsed);
             this.ForeColor = System.Drawing.SystemColors.Control;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Equipment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Equipment";

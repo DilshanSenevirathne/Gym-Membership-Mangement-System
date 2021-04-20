@@ -58,9 +58,32 @@ namespace Gym_Membership_Mangement_System
 
             SqlDataAdapter DA = new SqlDataAdapter(cmd);
             DataSet DS = new DataSet();
+
             DA.Fill(DS);
 
+           
+
+            
+
             dataGridView1.DataSource = DS.Tables[0];
+            String[] headers = {
+                "Member ID",
+                "First Name",
+                "Last Name",
+                "Gender",
+                "Date Of Birth",
+                "Mobile",
+                "Email",
+                "Join Date",
+                "Gym Time",
+                "Member Address",
+                "Membership Time"
+                };
+
+            for(int i =0; i < headers.Length; i++)
+            {
+                dataGridView1.Columns[i].HeaderText = headers[i];
+            }
         }
     }
 }
