@@ -96,6 +96,12 @@
     <Compile Include="ViewEquipment.Designer.cs">
       <DependentUpon>ViewEquipment.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewStaff.Designer.cs">
+      <DependentUpon>ViewStaff.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DeleteMember.resx">
       <DependentUpon>DeleteMember.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ViewEquipment.resx">
       <DependentUpon>ViewEquipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewStaff.resx">
+      <DependentUpon>ViewStaff.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

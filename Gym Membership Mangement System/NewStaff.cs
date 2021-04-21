@@ -73,5 +73,11 @@ namespace Gym_Membership_Mangement_System
 
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ViewStaff vs = new ViewStaff();
+            vs.Show();
+        }
     }
 }

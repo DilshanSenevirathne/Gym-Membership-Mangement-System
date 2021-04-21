@@ -52,6 +52,7 @@ namespace Gym_Membership_Mangement_System
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtFname
@@ -147,7 +148,7 @@ namespace Gym_Membership_Mangement_System
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(511, 579);
+            this.button2.Location = new System.Drawing.Point(371, 579);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(192, 62);
             this.button2.TabIndex = 11;
@@ -163,7 +164,7 @@ namespace Gym_Membership_Mangement_System
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(256, 580);
+            this.button1.Location = new System.Drawing.Point(112, 579);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(192, 62);
             this.button1.TabIndex = 10;
@@ -311,6 +312,19 @@ namespace Gym_Membership_Mangement_System
             this.label11.Text = "Southern Fitness";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button3.Location = new System.Drawing.Point(631, 579);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(207, 62);
+            this.button3.TabIndex = 35;
+            this.button3.Text = "View Staff";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // NewStaff
             // 
             this.AcceptButton = this.button1;
@@ -319,6 +333,7 @@ namespace Gym_Membership_Mangement_System
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(948, 675);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
@@ -376,5 +391,6 @@ namespace Gym_Membership_Mangement_System
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button3;
     }
 }
